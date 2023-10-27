@@ -1,5 +1,5 @@
 {
-  "proxy": "http://localhost:3001",
+  "proxy": "https://bounce-country-app.onrender.com",
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
