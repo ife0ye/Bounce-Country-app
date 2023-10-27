@@ -12,7 +12,7 @@ function App() {
     e.preventDefault();
 
     try {
-      const response = await axios.get(`/api/country?name=${countryName}`);
+      const response = await axios.get(`https://bounce-country-app.onrender.com/api/country?name=${countryName}`);
       console.log(response); 
       if (response.status === 200) {
         const data = response.data[0]; 
