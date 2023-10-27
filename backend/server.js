@@ -1,11 +1,11 @@
 const express = require('express');
 const axios = require('axios');
-
+const app = express();
 const app = express();
 const port = 3001;
 
 app.use(express.json());
-
+app.use(cors());
 app.get('/api/country', async (req, res) => {
   const { name } = req.query;
 
