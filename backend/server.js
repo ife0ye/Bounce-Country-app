@@ -6,7 +6,7 @@ const port = 3001;
 
 app.use(express.json());
 app.use(cors());
-app.get('/api/country', async (req, res) => {
+app.get('https://bounce-country-app.onrender.com/api/country', async (req, res) => {
   const { name } = req.query;
 
   try {
